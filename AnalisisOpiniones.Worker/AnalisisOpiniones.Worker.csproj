@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AnalisisOpiniones.Worker-2380ee0e-e74f-4927-883a-51e804947c6c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AnalisisOpiniones.Core\AnalisisOpiniones.Core.csproj" />
+    <ProjectReference Include="..\AnalisisOpiniones.Infrastructure\AnalisisOpiniones.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
